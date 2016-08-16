@@ -4,8 +4,9 @@
 #
 ################################################################################
 
-HPLIP_VERSION = 3.13.10
-HPLIP_SITE = http://downloads.sourceforge.net/hplip/hplip
+HPLIP_VERSION = 3.16.7
+#HPLIP_SITE = http://downloads.sourceforge.net/hplip/hplip
+HPLIP_SITE = http://heanet.dl.sourceforge.net/project/hplip/hplip/$(HPLIP_VERSION)
 HPLIP_AUTORECONF = YES
 HPLIP_DEPENDENCIES = cups libusb jpeg
 HPLIP_LICENSE = GPLv2 BSD-3c MIT

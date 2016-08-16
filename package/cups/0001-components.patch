@@ -1,0 +1,24 @@
+diff -Naur cups-2.1.4-orig/config-scripts/cups-common.m4 cups-2.1.4/config-scripts/cups-common.m4
+--- cups-2.1.4-orig/config-scripts/cups-common.m4	2016-06-14 17:45:32.000000000 +0000
++++ cups-2.1.4/config-scripts/cups-common.m4	2016-08-16 17:07:38.356660357 +0000
+@@ -459,7 +459,7 @@
+ 
+ case "$COMPONENTS" in
+ 	all)
+-		BUILDDIRS="filter backend berkeley cgi-bin monitor notifier ppdc scheduler systemv conf data desktop locale man doc examples templates"
++		BUILDDIRS="filter backend berkeley cgi-bin monitor ppdc scheduler systemv conf data locale doc examples templates"
+ 		;;
+ 
+ 	core)
+diff -Naur cups-2.1.4-orig/configure cups-2.1.4/configure
+--- cups-2.1.4-orig/configure	2016-06-14 17:45:32.000000000 +0000
++++ cups-2.1.4/configure	2016-08-16 17:06:04.376657768 +0000
+@@ -5921,7 +5921,7 @@
+ 
+ case "$COMPONENTS" in
+ 	all)
+-		BUILDDIRS="filter backend berkeley cgi-bin monitor notifier ppdc scheduler systemv conf data desktop locale man doc examples templates"
++		BUILDDIRS="filter backend berkeley cgi-bin monitor ppdc scheduler systemv conf data locale doc examples templates"
+ 		;;
+ 
+ 	core)

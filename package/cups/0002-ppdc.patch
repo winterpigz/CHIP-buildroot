@@ -1,0 +1,12 @@
+diff -Naur cups-2.1.4-orig/ppdc/Makefile cups-2.1.4/ppdc/Makefile
+--- cups-2.1.4-orig/ppdc/Makefile	2016-06-14 17:45:32.000000000 +0000
++++ cups-2.1.4/ppdc/Makefile	2016-08-16 17:08:58.360662561 +0000
+@@ -243,7 +243,7 @@
+ 		libcupsppdc.a ../cups/$(LIBCUPSSTATIC) $(LIBGSSAPI) $(SSLLIBS) \
+ 		$(DNSSDLIBS) $(COMMONLIBS) $(LIBZ)
+ 	echo Generating localization strings...
+-	./genstrings >sample.c
++	#./genstrings >sample.c
+ 
+ 
+ #
