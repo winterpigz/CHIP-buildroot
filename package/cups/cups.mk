@@ -19,7 +19,8 @@ CUPS_CONF_OPTS = \
 	--without-php \
 	--disable-gnutls \
 	--disable-gssapi \
-	--libdir=/usr/lib
+	--libdir=/usr/lib \
+	--with-docdir=/usr/share/cups/doc
 CUPS_CONFIG_SCRIPTS = cups-config
 
 CUPS_DEPENDENCIES = \
